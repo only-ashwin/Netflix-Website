@@ -3,4 +3,4 @@
 * Tech stacks are HTML5 and CSS3
 * Clear and self-understandable code for better experiences
 <br>
-You can check my work on : 
+You can check my work on : https://only-ashwin.github.io/Netflix-Website/
