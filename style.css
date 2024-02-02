@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    height: 80px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+}
+
+.nav-opt {
+    display: flex;
+}
+
+.logo {
+    height: 3rem;
+    width: 10rem;
+    background-image: url("image/nflxlogo.webp");
+    background-size: cover;
+}
+
+.lang select{
+    height: 32px;
+    width: 125px;
+    background-color: black;
+    padding: 6px 24px;
+    color: white;
+    border: 1px solid rgb(228, 223, 223);
+    border-radius: 5px;
+}
+
+.lang {
+    margin-right: 25px;
+}
+
+.nav-login {
+    height: 32px;
+    width: 75px;
+    background-color: rgb(229,9,20);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-login a {
+    text-decoration: none;
+}
+
+.hero-section {
+    position: relative;
+    top: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("image/header-image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 95vh;
+}
+
+.header-info {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 3.5rem;
+    opacity: 0.95;
+}
+
+h1, h2 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.input-email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-email input {
+    height: 56px;
+    width: 360px;
+    padding: 24px 16px;
+    font-size: 1rem;
+    background-color: black;
+    opacity: 0.5;
+    border-style: none;
+    border-radius: 5px;
+    border: 0.5px solid grey;
+    margin-right: 5px;
+}
+
+.input-email button {
+    height: 56px;
+    width: 200px;
+    background-color: rgb(229,9,20);
+    border-style: none;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.box {
+    border-top: 8px solid rgb(87, 85, 85);
+    border-bottom: 5px solid rgb(87, 85, 85);
+    height: 700px;
+}
+
+.box1, .box2, .box3, .box4 {
+    display: flex;
+}
+
+.box-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.box-info h2 {
+    margin-bottom: 10px;
+}
+
+.box-info p {
+    display: inline;
+    font-size: 20px;
+    /* padding-left: 170px; */
+    font-size: 25px;
+}
+
+.box-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.box2 .box-info h2 {
+    width: 570px;
+}
+
+.box .box-info {
+    padding: 100px 100px;
+}
+
+footer {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 120px;
+    color: rgba(255,255,255,0.7);
+}
+
+.contact-num {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.foot-links {
+    display: flex;
+    font-size: 1rem;
+}
+
+.foot-links ul {
+    list-style: none;
+    margin-right: 100px;
+}
+
+.foot-links ul li {
+    margin: 20px;
+}
+
+footer .lang {
+    margin-bottom: 10px;
+}
